@@ -2,4 +2,6 @@
 
 Get usernames from server worlds
 
-`node getPlayers.js {Path to world foler} {Server name}`
+Update getPlayers.js serverName and worldDir, run the command below:
+
+`node getPlayers.js`
