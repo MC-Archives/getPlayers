@@ -3,15 +3,8 @@ const fs = require('fs');
 const fetch = require('node-fetch');
 
 /* Vars */
-let serverName = "POD";
-const serverFolder = "20-7-10_POD1.15.2/world/";
-const serverRootDir = "../Backup/worlds/";
-let worldDir = `${serverRootDir}${serverName}/${serverFolder}`;
-const args = process.argv.slice(2);
-if (args !== '') {
-    worldDir = args[0];
-    serverName = args[1];
-}
+let serverName = "ThiccCraft5.0_Creative";
+let worldDir = '/Users/sophie/Downloads/ThiccCraft5.0_Creative_24-8-17_1.21.1/ThiccCraft5.0_Creative/';
 console.log(worldDir);
 const saveDir = './json';
 
